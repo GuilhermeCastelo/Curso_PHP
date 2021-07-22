@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="GET" action="calcula.php">
+        Número: <input type="number" name="num">
+        <fieldset>
+            <legend>Operação</legend>
+            <input type="radio" value="1" name="oper" id="dobro" checked>
+            <label for="dobro">Dobro</label>
+            <input type="radio" value="2" name="oper" id="cubo">
+            <label for="cubo">Cubo</label>
+            <input type="radio" value="3" name="oper" id="raiz">
+            <label for="raiz">Raiz quadrada</label>
+        </fieldset>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+
+</html>
